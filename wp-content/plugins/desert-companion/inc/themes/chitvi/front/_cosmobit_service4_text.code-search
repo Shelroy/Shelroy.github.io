@@ -1,0 +1,19 @@
+# Query: $cosmobit_service4_text
+# ContextLines: 1
+
+4 results - 1 file
+
+plugins/desert-companion/inc/themes/chitvi/front/section-service.php:
+   4  	$cosmobit_service4_subttl	= get_theme_mod('cosmobit_service4_subttl','We Serve the Best Work'); 
+   5: 	$cosmobit_service4_text		= get_theme_mod('cosmobit_service4_text','The majority have suffered alteration in some form, by cted ipsum dolor sit amet, consectetur adipisicing elit.'); 
+   6  	$cosmobit_service4_option    = get_theme_mod('cosmobit_service4_option',cosmobit_service3_options_default());
+
+  61  
+  62: 		<?php if (  empty( $cosmobit_service4_ttl )  || ! empty( $cosmobit_service4_subttl ) || ! empty( $cosmobit_service4_text )) : ?>
+  63  		<div class="dt-row dt-mb-5 dt-pb-2">
+
+  73  					
+  74: 					<?php if ( ! empty( $cosmobit_service4_text ) ) : ?>
+  75  						<div class="text">
+  76: 							<?php echo wp_kses_post($cosmobit_service4_text ); ?>
+  77  						</div>
